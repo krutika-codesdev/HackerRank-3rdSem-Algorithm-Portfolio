@@ -49,13 +49,13 @@ There are two candles with height 3, so the answer is 2.
 
 ### Time Complexity
 
-O(n)
+**O(n)**
 
 The array is traversed to find the maximum height and to count the occurrences of that height.
 
 ### Auxiliary Space Complexity
 
-O(1)
+**O(1)**
 
 No additional data structure proportional to the input size is required.
 
@@ -63,7 +63,7 @@ No additional data structure proportional to the input size is required.
 
 An alternative approach is to sort the candle heights first and then count how many elements at the end of the sorted array are equal to the maximum element.
 
-However, sorting requires O(n log n) time, while directly finding and counting the maximum requires only O(n) time.
+However, sorting requires **O(n log n)** time, while directly finding and counting the maximum requires only **O(n)** time.
 
 ## Why This Solution Is Efficient
 

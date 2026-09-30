@@ -62,13 +62,13 @@ The maximum sum is:
 
 ### Time Complexity
 
-O(n)
+**O(n)**
 
-The array is traversed to calculate the sum, minimum, and maximum. Since the problem always contains five elements, this is effectively constant time, but the general complexity is O(n).
+The array is traversed to calculate the sum, minimum, and maximum. Since the problem always contains five elements, this is effectively constant time, but the general complexity is **O(n)**.
 
 ### Auxiliary Space Complexity
 
-O(1)
+**O(1)**
 
 No additional data structure proportional to the input size is created. Only a few variables are used for the calculations.
 
@@ -79,7 +79,7 @@ An alternative approach is to sort the array first and then:
 - Sum the first four elements to obtain the minimum sum.
 - Sum the last four elements to obtain the maximum sum.
 
-However, sorting requires O(n log n) time, making it less efficient than directly using the total sum with the minimum and maximum elements.
+However, sorting requires **O(n log n)** time, making it less efficient than directly using the total sum with the minimum and maximum elements.
 
 ## Why This Solution Is Efficient
 

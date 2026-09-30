@@ -66,13 +66,13 @@ The resulting sorted array is:
 
 ### Time Complexity
 
-O(n)
+**O(n)**
 
 In the worst case, the last element may need to be compared with and shift past all preceding elements.
 
 ### Auxiliary Space Complexity
 
-O(1)
+**O(1)**
 
 Only a few variables are used, and no additional data structure proportional to the input size is required.
 
